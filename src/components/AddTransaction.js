@@ -36,19 +36,19 @@ export const AddTransaction = () => {
                             id="description"
                             value={description}
                             onChange={(e) => setDescription(e.target.value)}
-                            placeholder="Detail of Transaction" 
+                            placeholder="Enter Transaction Details" 
                             required="required"
                     />
                 </div>
                 <div className="form-control">
                     <label htmlFor="transactionamount">
-                        Transaction Amount
+                        Transaction Amount<p>(-ve for Income, -ve for Expense)</p>
                     </label>
                     <input  type="number" 
                             id="transactionamount"
                             value={transactionAmount}
                             onChange={(e) => setTransactionAmount(e.target.value)}
-                            placeholder="Dollar Value of Transaction"
+                            placeholder="Enter Amount"
                             required="required"
                     />
                 </div>
