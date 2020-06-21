@@ -5,7 +5,7 @@ export const Header = () => {
     return (
         
         <h2 id ="balance">
-            Expense Tracker
+            Expense Tracker App
         </h2>
         
     )
